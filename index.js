@@ -17,7 +17,7 @@ bot.onText(/\/start/, (msg) => {
         inline_keyboard: [
           [{
             text: 'Открыть веб-приложение',
-            web_app: { url: 'https://ya.ru' }, // Укажите URL вашего фронтенда
+            web_app: { url: '' }, // Укажите URL вашего фронтенда
           }],
         ],
       },
